@@ -1,7 +1,7 @@
 from flask import Flask  , jsonify
 from flask import render_template
 import openai
-api= "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"
+api= "api"
 app = Flask(__name__,template_folder='templates')
 @app.route('/')
 def index():
